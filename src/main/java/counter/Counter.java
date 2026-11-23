@@ -18,9 +18,11 @@ package counter;
 public interface Counter {
 
     // TODO [Step 1.1]: Declare int countWords(String sentence);
+    int countWords(String sentence);
 
     // TODO [Step 1.2]: Declare int countLetters(String sentence);
+    int countLetters(String sentence);
 
     // TODO [Step 1.3]: Declare int getLength(String sentence);
-
+    int getLength(String sentence);
 }
